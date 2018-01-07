@@ -28,4 +28,14 @@ The PCB is made using [Target](https://ibfriedrich.com/en/index.html), a German 
 ## The software
 The Software is written using Atmel Studio 7 in C++. I'm not using any library, its coded "bare metal". Compiling as Debug will use the UART to print debug messages and allow a few commands. In Release mode the UART is not used.
 Some source files are an early version of my [AvrLibrary](https://github.com/saarbastler/AvrLibrary).
- 
+
+## The 3d printed case
+![case](/images/3d.png)
+The case is designed using OpenSCAD. It is printed on my RF1000 Printer using blue Filament.
+
+## Some fotos
+
+![Retro Wrist Watch](/images/retrowristwatch1.png) 
+![Retro Wrist Watch](/images/retrowristwatch2.png) 
+![Retro Wrist Watch](/images/retrowristwatch3.png) 
+![Retro Wrist Watch](/images/retrowristwatch4.png) 
