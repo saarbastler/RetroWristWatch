@@ -23,4 +23,9 @@ Lower two digits are flashing, right button will count up, left button will sele
 Push left Button long to save the time, push right button long to cancel
 
 ## The PCB
-The PCB is made using [Target](https://ibfriedrich.com/en/index.html), a German PCB software. Detail see in the [pcb](pcb) folder. 
+The PCB is made using [Target](https://ibfriedrich.com/en/index.html), a German PCB software. Detail see in the [pcb](pcb) folder.
+
+## The software
+The Software is written using Atmel Studio 7 in C++. I'm not using any library, its coded "bare metal". Compiling as Debug will use the UART to print debug messages and allow a few commands. In Release mode the UART is not used.
+Some source files are an early version of my [AvrLibrary](https://github.com/saarbastler/AvrLibrary).
+ 
