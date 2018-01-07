@@ -1,9 +1,9 @@
 # RetroWristWatch
 Retro wristwatch using a 4 digit bubble display
 
-![Screenshot](/images/title.png)
+![Retro Wrist Watch](/images/title.png)
 
-# Manual:
+## Manual:
 Left Button: Show Date (DD.MM), left Button again: show year
 Right Button: Show Time (HH MM), right Button again: show seconds
 
@@ -21,3 +21,6 @@ Setting Year:
 First push the left Button, date is shown, now push left Button again, Year is shown. Push the right button longer ~2s.
 Lower two digits are flashing, right button will count up, left button will select upper two digits.
 Push left Button long to save the time, push right button long to cancel
+
+## The PCB
+The PCB is made using [Target](https://ibfriedrich.com/en/index.html), a German PCB software. Detail see in the [pcb](pcb) folder. 
